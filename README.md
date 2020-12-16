@@ -10,10 +10,10 @@ To test the code,
 4. You can run WemanityTests to check Unit Test
 
 How i made this test?
-The first thing i did was to create the clean architecture (Data - Domain - Presentation). 
-I create on Domain the model Item, a repository ItemRepository and a usecase UpdateItemsQuality. 
-I create on Data the InMemoryItemRepository with the code to update items quality from the Gilded Rose.
-I move on Presentation the ViewController with the loop code who update items with the update of days.
-Before start the refactoring, i create tests on WemanityTests with all cases present on the ReadMe.
-When tests passed, i attack the refactoring by creating a ItemType Class with 4 sub class to manage differents cases.
-For the Conjured type, i created the test first (TDD Methods) and i code the logic after on the class Conjured Item.
+* The first thing i did was to create the clean architecture (Data - Domain - Presentation). 
+* I create on Domain the model Item, a repository ItemRepository and a usecase UpdateItemsQuality. 
+* I create on Data the InMemoryItemRepository with the code to update items quality from the Gilded Rose.
+* I move on Presentation the ViewController with the loop code who update items with the update of days.
+* Before start the refactoring, i create tests on WemanityTests with all cases present on the ReadMe.
+* When tests passed, i attack the refactoring by creating a ItemType Class with 4 sub class to manage differents cases.
+* For the Conjured type, i created the test first (TDD Methods) and i code the logic after on the class Conjured Item.
